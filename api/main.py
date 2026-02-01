@@ -7,6 +7,8 @@ from api.models import NegotiationConfigRequest, NegotiationConfigResponse
 from api.services.negotiation import get_negotiation_config
 from api.models import CallRecordRequest, CallRecordResponse
 from api.services.call_record import record_call
+from api.models import MetricsSummaryResponse
+from api.services.metrics import get_metrics_summary
 
 app = FastAPI(title="Broker Client API")
 
@@ -26,3 +28,7 @@ def negotiation_config(payload: NegotiationConfigRequest):
 @app.post("/calls/record", response_model=CallRecordResponse)
 def record_call_endpoint(payload: CallRecordRequest):
     return record_call(payload)
+
+@app.get("/metrics/summary", response_model=MetricsSummaryResponse)
+def metrics_summary():
+    return get_metrics_summary()

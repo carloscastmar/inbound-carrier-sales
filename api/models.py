@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import Optional, Literal
+from typing import Dict
 
 
 class VerifyCarrierRequest(BaseModel):
@@ -63,3 +64,14 @@ class CallRecordRequest(BaseModel):
 
 class CallRecordResponse(BaseModel):
     status: str
+
+class MetricsSummaryResponse(BaseModel):
+    total_calls: int
+    booked_calls: int
+    transferred_calls: int
+    no_match_calls: int
+    rejected_calls: int
+    booking_rate: float
+    average_final_rate: float
+    average_negotiation_rounds: float
+    sentiment_breakdown: Dict[str, int]
