@@ -1,0 +1,134 @@
+[
+  {
+    "load_id": "L-1001",
+    "origin": "Dallas, TX",
+    "destination": "Chicago, IL",
+    "pickup_datetime": "2026-02-02T08:00",
+    "delivery_datetime": "2026-02-03T16:00",
+    "equipment_type": "Dry Van",
+    "rate": 2200,
+    "weight": 42000,
+    "commodity_type": "Paper"
+  },
+  {
+    "load_id": "L-1002",
+    "origin": "Dallas, TX",
+    "destination": "Atlanta, GA",
+    "pickup_datetime": "2026-02-02T10:00",
+    "delivery_datetime": "2026-02-03T20:00",
+    "equipment_type": "Dry Van",
+    "rate": 2100,
+    "weight": 38000,
+    "commodity_type": "Consumer Goods"
+  },
+  {
+    "load_id": "L-1003",
+    "origin": "Houston, TX",
+    "destination": "Chicago, IL",
+    "pickup_datetime": "2026-02-03T09:00",
+    "delivery_datetime": "2026-02-04T18:00",
+    "equipment_type": "Reefer",
+    "rate": 2650,
+    "weight": 36000,
+    "commodity_type": "Produce"
+  },
+  {
+    "load_id": "L-1004",
+    "origin": "Austin, TX",
+    "destination": "Denver, CO",
+    "pickup_datetime": "2026-02-04T07:00",
+    "delivery_datetime": "2026-02-05T17:00",
+    "equipment_type": "Flatbed",
+    "rate": 2900,
+    "weight": 44000,
+    "commodity_type": "Construction Materials"
+  },
+  {
+    "load_id": "L-1005",
+    "origin": "San Antonio, TX",
+    "destination": "Phoenix, AZ",
+    "pickup_datetime": "2026-02-03T06:00",
+    "delivery_datetime": "2026-02-04T14:00",
+    "equipment_type": "Dry Van",
+    "rate": 2400,
+    "weight": 41000,
+    "commodity_type": "Electronics"
+  },
+  {
+    "load_id": "L-1006",
+    "origin": "Chicago, IL",
+    "destination": "Detroit, MI",
+    "pickup_datetime": "2026-02-02T13:00",
+    "delivery_datetime": "2026-02-02T18:00",
+    "equipment_type": "Dry Van",
+    "rate": 900,
+    "weight": 20000,
+    "commodity_type": "Automotive Parts"
+  },
+  {
+    "load_id": "L-1007",
+    "origin": "Los Angeles, CA",
+    "destination": "Sacramento, CA",
+    "pickup_datetime": "2026-02-02T05:00",
+    "delivery_datetime": "2026-02-02T12:00",
+    "equipment_type": "Reefer",
+    "rate": 1200,
+    "weight": 30000,
+    "commodity_type": "Fresh Produce"
+  },
+  {
+    "load_id": "L-1008",
+    "origin": "Fresno, CA",
+    "destination": "Seattle, WA",
+    "pickup_datetime": "2026-02-03T08:00",
+    "delivery_datetime": "2026-02-05T10:00",
+    "equipment_type": "Reefer",
+    "rate": 3100,
+    "weight": 35000,
+    "commodity_type": "Frozen Foods"
+  },
+  {
+    "load_id": "L-1009",
+    "origin": "Newark, NJ",
+    "destination": "Boston, MA",
+    "pickup_datetime": "2026-02-02T09:00",
+    "delivery_datetime": "2026-02-02T18:00",
+    "equipment_type": "Dry Van",
+    "rate": 1100,
+    "weight": 25000,
+    "commodity_type": "Retail Merchandise"
+  },
+  {
+    "load_id": "L-1010",
+    "origin": "Memphis, TN",
+    "destination": "St. Louis, MO",
+    "pickup_datetime": "2026-02-03T11:00",
+    "delivery_datetime": "2026-02-03T21:00",
+    "equipment_type": "Dry Van",
+    "rate": 1300,
+    "weight": 33000,
+    "commodity_type": "Food Packaging"
+  },
+  {
+    "load_id": "L-1011",
+    "origin": "Savannah, GA",
+    "destination": "Charlotte, NC",
+    "pickup_datetime": "2026-02-04T07:30",
+    "delivery_datetime": "2026-02-04T17:00",
+    "equipment_type": "Dry Van",
+    "rate": 1400,
+    "weight": 36000,
+    "commodity_type": "Import Freight"
+  },
+  {
+    "load_id": "L-1012",
+    "origin": "Portland, OR",
+    "destination": "Boise, ID",
+    "pickup_datetime": "2026-02-03T06:00",
+    "delivery_datetime": "2026-02-03T15:00",
+    "equipment_type": "Flatbed",
+    "rate": 1700,
+    "weight": 39000,
+    "commodity_type": "Lumber"
+  }
+]
