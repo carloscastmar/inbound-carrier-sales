@@ -3,6 +3,8 @@ from api.models import VerifyCarrierRequest, VerifyCarrierResponse
 from api.services.carrier_verification import verify_carrier_service
 from api.models import LoadSearchRequest, LoadSearchResponse
 from api.services.load_search import search_loads
+from api.models import NegotiationConfigRequest, NegotiationConfigResponse
+from api.services.negotiation import get_negotiation_config
 
 app = FastAPI(title="Broker Client API")
 
@@ -14,3 +16,7 @@ def verify_carrier(payload: VerifyCarrierRequest):
 @app.post("/loads/search", response_model=LoadSearchResponse)
 def load_search(payload: LoadSearchRequest):
     return search_loads(payload)
+
+@app.post("/negotiation/config", response_model=NegotiationConfigResponse)
+def negotiation_config(payload: NegotiationConfigRequest):
+    return get_negotiation_config(payload)

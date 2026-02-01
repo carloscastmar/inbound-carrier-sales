@@ -6,9 +6,13 @@
     "pickup_datetime": "2026-02-02T08:00",
     "delivery_datetime": "2026-02-03T16:00",
     "equipment_type": "Dry Van",
-    "rate": 2200,
+    "loadboard_rate": 2200,
+    "notes": "No touch freight. Standard appointment.",
     "weight": 42000,
-    "commodity_type": "Paper"
+    "commodity_type": "Paper",
+    "num_of_pieces": 26,
+    "miles": 925,
+    "dimensions": "48x40 pallets"
   },
   {
     "load_id": "L-1002",
@@ -17,9 +21,13 @@
     "pickup_datetime": "2026-02-02T10:00",
     "delivery_datetime": "2026-02-03T20:00",
     "equipment_type": "Dry Van",
-    "rate": 2100,
+    "loadboard_rate": 2100,
+    "notes": "Live load. Flexible delivery window.",
     "weight": 38000,
-    "commodity_type": "Consumer Goods"
+    "commodity_type": "Consumer Goods",
+    "num_of_pieces": 22,
+    "miles": 780,
+    "dimensions": "48x40 pallets"
   },
   {
     "load_id": "L-1003",
@@ -28,9 +36,13 @@
     "pickup_datetime": "2026-02-03T09:00",
     "delivery_datetime": "2026-02-04T18:00",
     "equipment_type": "Reefer",
-    "rate": 2650,
+    "loadboard_rate": 2650,
+    "notes": "Temperature controlled at 34°F.",
     "weight": 36000,
-    "commodity_type": "Produce"
+    "commodity_type": "Produce",
+    "num_of_pieces": 20,
+    "miles": 1080,
+    "dimensions": "Reefer pallets"
   },
   {
     "load_id": "L-1004",
@@ -39,9 +51,13 @@
     "pickup_datetime": "2026-02-04T07:00",
     "delivery_datetime": "2026-02-05T17:00",
     "equipment_type": "Flatbed",
-    "rate": 2900,
+    "loadboard_rate": 2900,
+    "notes": "Straps required. Tarps not needed.",
     "weight": 44000,
-    "commodity_type": "Construction Materials"
+    "commodity_type": "Construction Materials",
+    "num_of_pieces": 12,
+    "miles": 920,
+    "dimensions": "Steel bundles"
   },
   {
     "load_id": "L-1005",
@@ -50,9 +66,13 @@
     "pickup_datetime": "2026-02-03T06:00",
     "delivery_datetime": "2026-02-04T14:00",
     "equipment_type": "Dry Van",
-    "rate": 2400,
+    "loadboard_rate": 2400,
+    "notes": "High-value freight. Seals required.",
     "weight": 41000,
-    "commodity_type": "Electronics"
+    "commodity_type": "Electronics",
+    "num_of_pieces": 18,
+    "miles": 980,
+    "dimensions": "Palletized cartons"
   },
   {
     "load_id": "L-1006",
@@ -61,9 +81,13 @@
     "pickup_datetime": "2026-02-02T13:00",
     "delivery_datetime": "2026-02-02T18:00",
     "equipment_type": "Dry Van",
-    "rate": 900,
+    "loadboard_rate": 900,
+    "notes": "Same-day delivery.",
     "weight": 20000,
-    "commodity_type": "Automotive Parts"
+    "commodity_type": "Automotive Parts",
+    "num_of_pieces": 10,
+    "miles": 280,
+    "dimensions": "Crated parts"
   },
   {
     "load_id": "L-1007",
@@ -72,9 +96,13 @@
     "pickup_datetime": "2026-02-02T05:00",
     "delivery_datetime": "2026-02-02T12:00",
     "equipment_type": "Reefer",
-    "rate": 1200,
+    "loadboard_rate": 1200,
+    "notes": "Early morning pickup. Maintain 36°F.",
     "weight": 30000,
-    "commodity_type": "Fresh Produce"
+    "commodity_type": "Fresh Produce",
+    "num_of_pieces": 16,
+    "miles": 385,
+    "dimensions": "Produce pallets"
   },
   {
     "load_id": "L-1008",
@@ -83,9 +111,13 @@
     "pickup_datetime": "2026-02-03T08:00",
     "delivery_datetime": "2026-02-05T10:00",
     "equipment_type": "Reefer",
-    "rate": 3100,
+    "loadboard_rate": 3100,
+    "notes": "Frozen goods. Continuous temperature monitoring.",
     "weight": 35000,
-    "commodity_type": "Frozen Foods"
+    "commodity_type": "Frozen Foods",
+    "num_of_pieces": 24,
+    "miles": 900,
+    "dimensions": "Frozen pallets"
   },
   {
     "load_id": "L-1009",
@@ -94,9 +126,13 @@
     "pickup_datetime": "2026-02-02T09:00",
     "delivery_datetime": "2026-02-02T18:00",
     "equipment_type": "Dry Van",
-    "rate": 1100,
+    "loadboard_rate": 1100,
+    "notes": "Dock-to-dock. No lumper fees.",
     "weight": 25000,
-    "commodity_type": "Retail Merchandise"
+    "commodity_type": "Retail Merchandise",
+    "num_of_pieces": 14,
+    "miles": 225,
+    "dimensions": "Palletized boxes"
   },
   {
     "load_id": "L-1010",
@@ -105,9 +141,13 @@
     "pickup_datetime": "2026-02-03T11:00",
     "delivery_datetime": "2026-02-03T21:00",
     "equipment_type": "Dry Van",
-    "rate": 1300,
+    "loadboard_rate": 1300,
+    "notes": "Flexible pickup window.",
     "weight": 33000,
-    "commodity_type": "Food Packaging"
+    "commodity_type": "Food Packaging",
+    "num_of_pieces": 19,
+    "miles": 285,
+    "dimensions": "Stacked cartons"
   },
   {
     "load_id": "L-1011",
@@ -116,9 +156,13 @@
     "pickup_datetime": "2026-02-04T07:30",
     "delivery_datetime": "2026-02-04T17:00",
     "equipment_type": "Dry Van",
-    "rate": 1400,
+    "loadboard_rate": 1400,
+    "notes": "Port pickup. Chassis provided.",
     "weight": 36000,
-    "commodity_type": "Import Freight"
+    "commodity_type": "Import Freight",
+    "num_of_pieces": 21,
+    "miles": 245,
+    "dimensions": "Containerized pallets"
   },
   {
     "load_id": "L-1012",
@@ -127,8 +171,12 @@
     "pickup_datetime": "2026-02-03T06:00",
     "delivery_datetime": "2026-02-03T15:00",
     "equipment_type": "Flatbed",
-    "rate": 1700,
+    "loadboard_rate": 1700,
+    "notes": "Edge protectors required.",
     "weight": 39000,
-    "commodity_type": "Lumber"
+    "commodity_type": "Lumber",
+    "num_of_pieces": 14,
+    "miles": 430,
+    "dimensions": "Lumber bundles"
   }
 ]

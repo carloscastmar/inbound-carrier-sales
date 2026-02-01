@@ -35,3 +35,15 @@ class Load(BaseModel):
 class LoadSearchResponse(BaseModel):
     has_match: bool
     load: Optional[Load] = None
+
+
+class NegotiationConfigRequest(BaseModel):
+    load_id: str
+
+
+class NegotiationConfigResponse(BaseModel):
+    base_rate: int
+    max_rate: int
+    max_rounds: int
+    counter_step: int
+    currency: str
