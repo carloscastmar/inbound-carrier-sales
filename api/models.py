@@ -14,11 +14,11 @@ class VerifyCarrierResponse(BaseModel):
     reason: Optional[str]
 
 class LoadSearchRequest(BaseModel):
-    origin: Optional[str]
-    destination: Optional[str]
-    pickup_after: Optional[str]
-    equipment_type: Optional[str]
-    target_rate: Optional[int]
+    origin: Optional[str] = None
+    destination: Optional[str] = None
+    pickup_after: Optional[str] = None
+    equipment_type: Optional[str] = None
+    target_rate: Optional[int] = None
 
 
 class Load(BaseModel):
