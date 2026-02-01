@@ -1,4 +1,5 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
+from api.security import verify_api_key
 from api.models import VerifyCarrierRequest, VerifyCarrierResponse
 from api.services.carrier_verification import verify_carrier_service
 from api.models import LoadSearchRequest, LoadSearchResponse
@@ -10,7 +11,9 @@ from api.services.call_record import record_call
 from api.models import MetricsSummaryResponse
 from api.services.metrics import get_metrics_summary
 
-app = FastAPI(title="Broker Client API")
+app = FastAPI(
+    title="Broker Client API",
+    dependencies=[Depends(verify_api_key)])
 
 
 @app.post("/verify-carrier", response_model=VerifyCarrierResponse)
