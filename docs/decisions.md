@@ -73,3 +73,15 @@ Extract and classify data only from the AI-handled portion of the call.
 All structured data extraction, outcome classification, and sentiment analysis are performed before the call is transferred to a human broker. Post-transfer conversations are intentionally excluded, as they are less structured and would typically be handled by separate CRM or call-recording tools in a production environment.
 
 This keeps the automation focused, consistent, and easy to evaluate.
+
+--
+
+## Where to locate the negotiation logic
+
+**Decision**
+Locate the negotiation logic in the HappyRobot workflow.
+
+**Reasoning**
+This is a highly configurable module and we don't want to make a call every time the client makes a counter offer -> Higher latency, can negatively affect the conversation. Also, the negotiatin logic for a demo should not be too complex. If this logic gets more complex in production, could consider the idea of moving this logic to the API.
+
+Rate negotiation is handled using HappyRobot’s native negotiation capabilities to keep the conversation natural and responsive. The external service provides pricing boundaries and records outcomes, ensuring that core business rules and metrics remain centralized.
