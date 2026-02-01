@@ -13,7 +13,6 @@ def fetch_carrier_by_mc(mc_number: str) -> dict:
     before querying FMCSA for better reliability.
     """
     url = f"{FMCSA_BASE_URL}/carriers/docket-number/{mc_number}"
-    # url = f"{FMCSA_BASE_URL}/carriers/{mc_number}"
 
     params = {"webKey": FMCSA_WEB_KEY}
 
@@ -41,7 +40,7 @@ def fetch_carrier_by_mc(mc_number: str) -> dict:
 def verify_carrier_service(
     payload: VerifyCarrierRequest
 ) -> VerifyCarrierResponse:
-    data = fetch_carrier_by_mc(payload.identifier)
+    data = fetch_carrier_by_mc(payload.mc_number)
     content = data.get("content", [])
 
     carrier = content[0].get("carrier", {})

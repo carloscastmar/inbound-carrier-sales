@@ -3,8 +3,8 @@ from typing import Optional, Literal
 
 
 class VerifyCarrierRequest(BaseModel):
-    identifier: str
-    identifier_type: Literal["MC", "DOT"]
+    mc_number: str
+    # identifier_type: Literal["MC", "DOT"]
 
 
 class VerifyCarrierResponse(BaseModel):
