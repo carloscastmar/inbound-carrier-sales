@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-# Prevent Python from writing pyc files
+# Prevent Python from writing pyc file
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
