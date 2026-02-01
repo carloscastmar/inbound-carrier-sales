@@ -1,0 +1,12 @@
+[
+  {
+    "call_id": "call-001",
+    "carrier_mc": "44110",
+    "load_id": "L-1001",
+    "final_rate": 2300,
+    "negotiation_rounds": 2,
+    "outcome": "booked",
+    "sentiment": "positive",
+    "timestamp": "2026-02-01T20:15:00Z"
+  }
+]

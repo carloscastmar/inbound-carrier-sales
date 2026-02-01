@@ -47,3 +47,19 @@ class NegotiationConfigResponse(BaseModel):
     max_rounds: int
     counter_step: int
     currency: str
+
+from typing import Optional, Literal
+
+
+class CallRecordRequest(BaseModel):
+    call_id: str
+    carrier_mc: str
+    load_id: Optional[str] = None
+    final_rate: Optional[int] = None
+    negotiation_rounds: int
+    outcome: Literal["booked", "no_match", "rejected", "transferred"]
+    sentiment: Literal["positive", "neutral", "negative"]
+    timestamp: str
+
+class CallRecordResponse(BaseModel):
+    status: str
