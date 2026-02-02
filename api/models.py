@@ -27,10 +27,15 @@ class Load(BaseModel):
     origin: str
     destination: str
     pickup_datetime: str
+    delivery_datetime: str
     equipment_type: str
-    rate: int
+    loadboard_rate: int
+    notes: str
     weight: int
     commodity_type: str
+    num_of_pieces: int
+    miles: int
+    dimensions: str
 
 
 class LoadSearchResponse(BaseModel):
