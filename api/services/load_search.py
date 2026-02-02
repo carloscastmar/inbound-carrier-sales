@@ -23,8 +23,6 @@ def matches(load: dict, req: LoadSearchRequest) -> bool:
         pickup_time = datetime.fromisoformat(load["pickup_datetime"])
         if pickup_time < pickup_after:
             return False
-    if req.target_rate and req.target_rate > (load["loadboard_rate"] + 150):
-        return False
     return True
 
 
