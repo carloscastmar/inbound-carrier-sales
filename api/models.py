@@ -59,10 +59,10 @@ from typing import Optional, Literal
 
 class CallRecordRequest(BaseModel):
     call_id: str
-    carrier_mc: str
+    carrier_mc: Optional[str] = None
     load_id: Optional[str] = None
     final_rate: Optional[int] = None
-    negotiation_rounds: int
+    negotiation_rounds: Optional[int] = None
     outcome: Literal["booked", "no_match", "rejected", "transferred"]
     sentiment: Literal["positive", "neutral", "negative"]
     timestamp: str
