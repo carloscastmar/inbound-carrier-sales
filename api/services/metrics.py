@@ -13,6 +13,7 @@ def load_calls():
 
 
 def get_metrics_summary() -> MetricsSummaryResponse:
+    
     calls = load_calls()
 
     total_calls = len(calls)
