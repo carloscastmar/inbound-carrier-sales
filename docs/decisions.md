@@ -85,11 +85,3 @@ Locate the negotiation logic in the HappyRobot workflow.
 This is a highly configurable module and we don't want to make a call every time the client makes a counter offer -> Higher latency, can negatively affect the conversation. Also, the negotiatin logic for a demo should not be too complex. If this logic gets more complex in production, could consider the idea of moving this logic to the API.
 
 Rate negotiation is handled using HappyRobot’s native negotiation capabilities to keep the conversation natural and responsive. The external service provides pricing boundaries and records outcomes, ensuring that core business rules and metrics remain centralized.
-
---
-
-## Carrier Verification Identifier
-
-For the demo, carrier verification is performed using MC (docket) numbers, as specified in the assignment and reflected in the conversational flow.
-
-In production environments, FMCSA integrations are more reliable when using DOT numbers. A production-ready implementation would normalize MC numbers to DOT numbers internally before querying FMCSA. This additional step was intentionally omitted from the demo to keep the flow simple and aligned with the assignment requirements.
