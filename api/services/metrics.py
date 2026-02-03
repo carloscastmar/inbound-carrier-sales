@@ -29,6 +29,11 @@ def get_metrics_summary() -> MetricsSummaryResponse:
         if booked else 0
     )
 
+    avg_difference = (
+        sum((c["final_rate"] - c["initial_rate"]) for c in booked if (c.get("final_rate") and c.get("initial_rate")) is not None) / len(booked)
+        if booked else 0
+    )
+
     avg_rounds = (
         sum(c["negotiation_rounds"] for c in calls) / total_calls
         if total_calls else 0
@@ -48,6 +53,7 @@ def get_metrics_summary() -> MetricsSummaryResponse:
         rejected_calls=len(rejected),
         booking_rate=round(booking_rate, 2),
         average_final_rate=round(avg_rate, 2),
+        avg_difference = round(avg_difference, 2),
         average_negotiation_rounds=round(avg_rounds, 2),
         sentiment_breakdown=sentiment_breakdown
     )

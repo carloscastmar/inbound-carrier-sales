@@ -54,13 +54,12 @@ class NegotiationConfigResponse(BaseModel):
     counter_step: int
     currency: str
 
-from typing import Optional, Literal
-
 
 class CallRecordRequest(BaseModel):
     call_id: str
     carrier_mc: Optional[str] = None
     load_id: Optional[str] = None
+    initial_rate: Optional[int] = None
     final_rate: Optional[int] = None
     negotiation_rounds: Optional[int] = None
     outcome: Literal["booked", "no_match", "rejected", "transferred"]
@@ -78,5 +77,6 @@ class MetricsSummaryResponse(BaseModel):
     rejected_calls: int
     booking_rate: float
     average_final_rate: float
+    avg_difference: float
     average_negotiation_rounds: float
     sentiment_breakdown: Dict[str, int]
