@@ -66,15 +66,3 @@ This endpoint can be consumed by:
 - Operational reporting workflows
 
 For the demo, metrics are presented directly via the API to emphasize product behavior and system design rather than visualization tooling.
-
----
-
-## Future Enhancements
-
-In a production environment, the metrics layer could be extended to include:
-- Time-based trends (daily, weekly performance)
-- Lane-level performance analysis
-- Negotiation success by equipment type
-- Correlation between sentiment and booking rates
-
-These enhancements were intentionally left out of scope to keep the demo focused and easy to follow.
