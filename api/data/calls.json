@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "call_id": "call-001",
+    "carrier_mc": "44110",
+    "load_id": "L-1001",
+    "initial_rate": 2200,
+    "final_rate": 2250,
+    "negotiation_rounds": 2,
+    "outcome": "booked",
+    "sentiment": "positive",
+    "timestamp": "2026-02-01T10:15:00Z"
+  },
+  {
+    "call_id": "call-002",
+    "carrier_mc": "782345",
+    "load_id": "L-1002",
+    "initial_rate": 2100,
+    "final_rate": null,
+    "negotiation_rounds": 3,
+    "outcome": "rate_too_high",
+    "sentiment": "neutral",
+    "timestamp": "2026-02-01T10:32:00Z"
+  },
+  {
+    "call_id": "call-003",
+    "carrier_mc": "998877",
+    "load_id": null,
+    "initial_rate": null,
+    "final_rate": null,
+    "negotiation_rounds": 1,
+    "outcome": "no_matching_load",
+    "sentiment": "neutral",
+    "timestamp": "2026-02-01T10:48:00Z"
+  },
+  {
+    "call_id": "call-004",
+    "carrier_mc": "555221",
+    "load_id": null,
+    "initial_rate": null,
+    "final_rate": null,
+    "negotiation_rounds": 0,
+    "outcome": "carrier_not_verified",
+    "sentiment": "negative",
+    "timestamp": "2026-02-01T11:03:00Z"
+  },
+  {
+    "call_id": "call-005",
+    "carrier_mc": "112233",
+    "load_id": "L-1003",
+    "initial_rate": 2550,
+    "final_rate": 2600,
+    "negotiation_rounds": 1,
+    "outcome": "booked",
+    "sentiment": "positive",
+    "timestamp": "2026-02-01T11:20:00Z"
+  },
+  {
+    "call_id": "call-006",
+    "carrier_mc": "667788",
+    "load_id": "L-1006",
+    "initial_rate": 900,
+    "final_rate": 900,
+    "negotiation_rounds": 0,
+    "outcome": "booked",
+    "sentiment": "positive",
+    "timestamp": "2026-02-01T11:45:00Z"
+  },
+  {
+    "call_id": "call-007",
+    "carrier_mc": "334455",
+    "load_id": "L-1004",
+    "initial_rate": 2800,
+    "final_rate": null,
+    "negotiation_rounds": 2,
+    "outcome": "transferred_to_sales",
+    "sentiment": "neutral",
+    "timestamp": "2026-02-01T12:05:00Z"
+  },
+  {
+    "call_id": "call-008",
+    "carrier_mc": "889900",
+    "load_id": "L-1008",
+    "initial_rate": 3000,
+    "final_rate": null,
+    "negotiation_rounds": 3,
+    "outcome": "rate_too_high",
+    "sentiment": "negative",
+    "timestamp": "2026-02-01T12:22:00Z"
+  },
+  {
+    "call_id": "call-009",
+    "carrier_mc": "246810",
+    "load_id": "L-1010",
+    "initial_rate": 1300,
+    "final_rate": 1300,
+    "negotiation_rounds": 1,
+    "outcome": "booked",
+    "sentiment": "positive",
+    "timestamp": "2026-02-01T12:40:00Z"
+  },
+  {
+    "call_id": "call-010",
+    "carrier_mc": "135791",
+    "load_id": null,
+    "initial_rate": null,
+    "final_rate": null,
+    "negotiation_rounds": 1,
+    "outcome": "no_matching_load",
+    "sentiment": "neutral",
+    "timestamp": "2026-02-01T13:00:00Z"
+  }
+]
