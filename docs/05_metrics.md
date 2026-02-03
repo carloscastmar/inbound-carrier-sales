@@ -45,6 +45,9 @@ The system exposes a summary report with the following metrics:
 - **average_final_rate**  
   Average agreed rate for booked loads.
 
+- **average_difference**  
+  Average difference between the final rate and the initial rate of the load.
+
 - **average_negotiation_rounds**  
   Average number of negotiation turns per call.
 

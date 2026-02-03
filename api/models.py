@@ -77,6 +77,6 @@ class MetricsSummaryResponse(BaseModel):
     rejected_calls: int
     booking_rate: float
     average_final_rate: float
-    avg_difference: float
+    average_difference: float
     average_negotiation_rounds: float
     sentiment_breakdown: Dict[str, int]

@@ -53,7 +53,7 @@ def get_metrics_summary() -> MetricsSummaryResponse:
         rejected_calls=len(rejected),
         booking_rate=round(booking_rate, 2),
         average_final_rate=round(avg_rate, 2),
-        avg_difference = round(avg_difference, 2),
+        average_difference = round(avg_difference, 2),
         average_negotiation_rounds=round(avg_rounds, 2),
         sentiment_breakdown=sentiment_breakdown
     )
