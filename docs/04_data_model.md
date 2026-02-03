@@ -73,6 +73,9 @@ Each call record includes:
 - **final_rate**  
   Agreed rate if the load was booked.
 
+- **intial_rate**  
+  Initial rate of the load.
+
 - **negotiation_rounds**  
   Number of negotiation turns before resolution.
 
