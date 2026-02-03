@@ -104,7 +104,7 @@
     "load_id": null,
     "initial_rate": null,
     "final_rate": null,
-    "negotiation_rounds": 1,
+    "negotiation_rounds": 2,
     "outcome": "no_matching_load",
     "sentiment": "neutral",
     "timestamp": "2026-02-01T13:00:00Z"
